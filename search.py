@@ -1,9 +1,7 @@
 from evaluation import evaluate
 from move_generator import MoveGenerator
 from pieces import *
-
-CHECKMATE_SCORE = 100000
-STALEMATE_SCORE = 0
+from config import CHECKMATE_SCORE, STALEMATE_SCORE
 
 nodes_searched = 0
 
